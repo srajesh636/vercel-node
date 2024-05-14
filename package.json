@@ -1,0 +1,26 @@
+{
+  "name": "vercel-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srajesh636/vercel-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srajesh636/vercel-node/issues"
+  },
+  "homepage": "https://github.com/srajesh636/vercel-node#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11"
+  }
+}
