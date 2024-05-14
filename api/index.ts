@@ -3,6 +3,7 @@ const app = express();
 
 app.get("/ping", (req, res) => {
     const validationToken = req.query.validationToken;
+    res.set('Content-Type', 'text/plain');
     res.status(200).send(validationToken);
 });
 
