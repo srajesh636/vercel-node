@@ -8,7 +8,7 @@ app.get("/ping", (req, res) => {
 });
 
 app.post('/webhook', (req, res) => {
-    console.log(req)
+    console.log("data",req.body)
     const validationToken = req.query.validationToken;
     if(validationToken){
         res.set('Content-Type', 'text/plain');
