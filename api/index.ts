@@ -15,8 +15,8 @@ app.post('/webhook', (req, res) => {
     }
     if(req.body){
         console.log(req.body)
+        return res.status(200)
     }
-    res.status(200)
 });
 
 
