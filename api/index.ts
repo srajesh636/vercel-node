@@ -13,7 +13,9 @@ app.post('/webhook', (req, res) => {
         res.set('Content-Type', 'text/plain');
         return res.status(200).send(validationToken);
     }
-    console.log(req.body)
+    if(req.body){
+        console.log(req.body)
+    }
     res.status(200)
 });
 
