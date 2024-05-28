@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.post('/webhook', (req, res) => {
-    console.log("data",req.body,req.query)
+    console.log("data",JSON.stringify(req.body))
     const validationToken = req.query.validationToken;
     res.set('Content-Type', 'text/plain');
     res.status(200).send(validationToken);
